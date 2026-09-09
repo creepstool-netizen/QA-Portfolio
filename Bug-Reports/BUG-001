@@ -1,1 +1,39 @@
+# BUG-001
+
+## Title
+
+Login button is active when required fields are empty
+
+## Environment
+
+- Browser: Google Chrome 140
+- OS: Windows 11
+- Device: Desktop
+
+## Preconditions
+
+User is on the login page.
+
+## Steps to Reproduce
+
+1. Open login page.
+2. Leave email field empty.
+3. Leave password field empty.
+4. Click "Login".
+
+## Expected Result
+
+Login button should be disabled or validation messages should be displayed.
+
+## Actual Result
+
+Login request is sent without entering credentials.
+
+## Severity
+
+Medium
+
+## Priority
+
+High
 
