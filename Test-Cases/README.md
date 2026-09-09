@@ -17,17 +17,3 @@
 | TC-006 | Registration with valid data | Account is created | PASS |
 | TC-007 | Registration with existing email | Error message is displayed | PASS |
 | TC-008 | Registration with empty required fields | Validation messages are displayed | PASS |
-
-TC-001 Login with valid credentials
-
-Preconditions:
-User is registered.
-
-Steps:
-1. Open login page.
-2. Enter valid email.
-3. Enter valid password.
-4. Click "Login".
-
-Expected Result:
-User successfully logs in and is redirected to the main page.
