@@ -1,1 +1,14 @@
+# Login Checklist
 
+- [ ] Login with valid email and password
+- [ ] Login with invalid password
+- [ ] Login with invalid email
+- [ ] Login with empty email
+- [ ] Login with empty password
+- [ ] Login with empty fields
+- [ ] Check password masking
+- [ ] Check "Remember me"
+- [ ] Check "Forgot password"
+- [ ] Check error messages
+- [ ] Check login on different browsers
+- [ ] Check login on mobile device
